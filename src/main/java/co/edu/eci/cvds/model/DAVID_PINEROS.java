@@ -10,7 +10,7 @@ import jakarta.persistence.Table;
 public class DAVID_PINEROS {
     @Id
     @Column(name = "NUMEROPREGUNTA")
-    private int numeroPregunta;
+    private String numeroPregunta;
     @Column(name = "LETRA")
     private String letra;
     @Column(name = "JUSTIFICACION")
@@ -19,13 +19,13 @@ public class DAVID_PINEROS {
     public DAVID_PINEROS() {
     }
 
-    public DAVID_PINEROS(int numeroPregunta, String letra, String justificacion) {
+    public DAVID_PINEROS(String numeroPregunta, String letra, String justificacion) {
         this.numeroPregunta = numeroPregunta;
         this.letra = letra;
         this.justificacion = justificacion;
     }
 
-    public Integer getNumeroPregunta() {
+    public String getNumeroPregunta() {
         return numeroPregunta;
     }
 }

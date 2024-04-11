@@ -5,5 +5,5 @@ import org.springframework.stereotype.Repository;
 import co.edu.eci.cvds.model.DAVID_PINEROS;
 
 @Repository
-public interface DavidPinerosRepository extends JpaRepository<DAVID_PINEROS, Integer> {
+public interface DavidPinerosRepository extends JpaRepository<DAVID_PINEROS, String> {
 }
