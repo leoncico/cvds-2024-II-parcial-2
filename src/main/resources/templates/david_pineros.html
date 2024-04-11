@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org" lang="en"><!-- //NOSONAR -->
+<th:block th:replace="fragments/general.html::headerfiles('Example Page')"></th:block>
+<body>
+<main>
+    <h2 class="display-6 text-center mb-4">RESPUESTAS EXAMEN</h2>
+    <div class="table-responsive">
+        <table class="table table-info">
+            <thead>
+            <tr>
+                <th scope="col">NUMERO PREGUNTA</th>
+                <th scope="col">LETRA RESPUESTA</th>
+                <th scope="col">JUSTIFICACION</th>
+            </tr>
+            </thead>
+
+
+            <tbody>
+            
+            <tr th:each="answer : ${answers}">
+                <td><span th:text="${answer.numeroPregunta}"> Title </span></td>
+                <td><span th:text="${answer.justificacion}"> Author </span></td>
+                <td><span th:text="${answer.letra}"> Author </span></td>
+            </tr>
+            </tbody>
+
+        </table>
+    </div>
+</main>
+<footer th:replace="fragments/general::empty-footer"></footer>
+</body>
+</html>
