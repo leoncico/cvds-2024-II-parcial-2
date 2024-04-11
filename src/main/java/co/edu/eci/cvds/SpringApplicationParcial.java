@@ -31,6 +31,7 @@ public class SpringApplicationParcial {
 		SpringApplication.run(SpringApplicationParcial.class, args);
 	}
 
+
 	@Bean
 	public CommandLineRunner run() {
 		return (args) -> {
