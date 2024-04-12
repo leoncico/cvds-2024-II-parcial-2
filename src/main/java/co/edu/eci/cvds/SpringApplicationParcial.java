@@ -43,7 +43,7 @@ public class SpringApplicationParcial {
 		return new RestTemplate();
 	}
 
-	@RequestMapping("/camiloMurcia")
+	@RequestMapping("/camilo_murcia")
 	public String home(){
 		return "Hola";
 	}
