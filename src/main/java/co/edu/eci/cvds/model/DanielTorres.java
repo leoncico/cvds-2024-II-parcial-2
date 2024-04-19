@@ -9,26 +9,30 @@ import jakarta.persistence.Table;
 @Table(name = "Daniel_Torres")
 public class DanielTorres {
     @Id
-    @Column(name = "Num_Preguntas")
-    private int preguntas;
+    @Column(name = "Pregunta")
+    private int pregunta;
     @Column(name = "Letra")
     private String letra;
     @Column(name = "Razon")
     private String argumento;
 
-    public DanielTorres(int preguntas, String Letra, String Razon){
-        this.preguntas=preguntas;
+    public DanielTorres(int pregunta, String Letra, String Razon){
+        this.pregunta=pregunta;
         this.letra=Letra;
         this.argumento=Razon;
     }
 
+    public DanielTorres() {
+
+    }
+
 
     public int getPreguntas() {
-        return preguntas;
+        return pregunta;
     }
 
     public void setPreguntas(int preguntas) {
-        this.preguntas = preguntas;
+        this.pregunta = preguntas;
     }
 
     public String getLetra() {

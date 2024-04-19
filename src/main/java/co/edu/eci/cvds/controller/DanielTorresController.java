@@ -28,7 +28,7 @@ public class DanielTorresController {
 
     @GetMapping("")
     public String showAll(Model model) {
-    model.addAttribute("NumPreguntas", danielTorresService.getAllConfigurations());
+    model.addAttribute("Preguntas", danielTorresService.getAllConfigurations());
     return "DanielTorres";
     }
 
