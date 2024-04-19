@@ -3,28 +3,21 @@
 <th:block th:replace="fragments/general.html::headerfiles('Example Page')"></th:block>
 <body>
 <main>
-    <h2 class="display-6 text-center mb-4">To Do Item</h2>
+    <h2 class="display-6 text-center mb-4">Respuesta Parcial</h2>
     <div class="table-responsive">
         <table class="table table-info">
             <thead>
             <tr>
-                <th scope="col">Num_Preguntas</th>
-                <th scope="col">Letra</th>
-                <th scope="col">Razon</th>
+                <th>Num_Preguntas</th>
+                <th>Letra</th>
+                <th>Razon</th>
             </tr>
             </thead>
             <tbody>
-            <tr>
-                <th scope="row">id</th>
-                <td><p th:text="${danielTorres.Pregunta}"/></td>
-            </tr>
-            <tr>
-                <th scope="row">user id</th>
-                <td><p th:text="${danielTorres.Letra}"/></td>
-            </tr>
-            <tr>
-                <th scope="row">title</th>
-                <td><p th:text="${danielTorres.Razon}"/></td>
+            <tr th:each="danielTorres: ${danielTorres}">
+                <td th:text="${danielTorres.preguntas}" ></td>
+                <td th:text="${danielTorres.letra}" ></td>
+                <td th:text="${danielTorres.razon}" ></td>
             </tr>
             </tbody>
 

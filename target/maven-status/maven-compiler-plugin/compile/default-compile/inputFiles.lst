@@ -1,12 +1,12 @@
-C:\Users\HP Pavilion Gaming\IdeaProjects\cvds-2024-II-parcial-2\src\main\java\co\edu\eci\cvds\service\DanielTorresService.java
-C:\Users\HP Pavilion Gaming\IdeaProjects\cvds-2024-II-parcial-2\src\main\java\co\edu\eci\cvds\config\WebConfig.java
-C:\Users\HP Pavilion Gaming\IdeaProjects\cvds-2024-II-parcial-2\src\main\java\co\edu\eci\cvds\service\ConfigurationService.java
-C:\Users\HP Pavilion Gaming\IdeaProjects\cvds-2024-II-parcial-2\src\main\java\co\edu\eci\cvds\model\DanielTorres.java
-C:\Users\HP Pavilion Gaming\IdeaProjects\cvds-2024-II-parcial-2\src\main\java\co\edu\eci\cvds\repository\ConfigurationRepository.java
-C:\Users\HP Pavilion Gaming\IdeaProjects\cvds-2024-II-parcial-2\src\main\java\co\edu\eci\cvds\SpringApplicationParcial.java
-C:\Users\HP Pavilion Gaming\IdeaProjects\cvds-2024-II-parcial-2\src\main\java\co\edu\eci\cvds\repository\DanielTorresRepository.java
-C:\Users\HP Pavilion Gaming\IdeaProjects\cvds-2024-II-parcial-2\src\main\java\co\edu\eci\cvds\controller\LoginController.java
-C:\Users\HP Pavilion Gaming\IdeaProjects\cvds-2024-II-parcial-2\src\main\java\co\edu\eci\cvds\controller\ConfigurationController.java
-C:\Users\HP Pavilion Gaming\IdeaProjects\cvds-2024-II-parcial-2\src\main\java\co\edu\eci\cvds\config\BasicAuthInterceptor.java
-C:\Users\HP Pavilion Gaming\IdeaProjects\cvds-2024-II-parcial-2\src\main\java\co\edu\eci\cvds\controller\DanielTorresController.java
-C:\Users\HP Pavilion Gaming\IdeaProjects\cvds-2024-II-parcial-2\src\main\java\co\edu\eci\cvds\model\Configuration.java
+C:\Users\Rulos\IdeaProjects\cvds-2024-II-parcial-2\src\main\java\co\edu\eci\cvds\controller\LoginController.java
+C:\Users\Rulos\IdeaProjects\cvds-2024-II-parcial-2\src\main\java\co\edu\eci\cvds\service\ConfigurationService.java
+C:\Users\Rulos\IdeaProjects\cvds-2024-II-parcial-2\src\main\java\co\edu\eci\cvds\controller\DanielTorresController.java
+C:\Users\Rulos\IdeaProjects\cvds-2024-II-parcial-2\src\main\java\co\edu\eci\cvds\repository\DanielTorresRepository.java
+C:\Users\Rulos\IdeaProjects\cvds-2024-II-parcial-2\src\main\java\co\edu\eci\cvds\model\Configuration.java
+C:\Users\Rulos\IdeaProjects\cvds-2024-II-parcial-2\src\main\java\co\edu\eci\cvds\repository\ConfigurationRepository.java
+C:\Users\Rulos\IdeaProjects\cvds-2024-II-parcial-2\src\main\java\co\edu\eci\cvds\model\DanielTorres.java
+C:\Users\Rulos\IdeaProjects\cvds-2024-II-parcial-2\src\main\java\co\edu\eci\cvds\controller\ConfigurationController.java
+C:\Users\Rulos\IdeaProjects\cvds-2024-II-parcial-2\src\main\java\co\edu\eci\cvds\SpringApplicationParcial.java
+C:\Users\Rulos\IdeaProjects\cvds-2024-II-parcial-2\src\main\java\co\edu\eci\cvds\service\DanielTorresService.java
+C:\Users\Rulos\IdeaProjects\cvds-2024-II-parcial-2\src\main\java\co\edu\eci\cvds\config\WebConfig.java
+C:\Users\Rulos\IdeaProjects\cvds-2024-II-parcial-2\src\main\java\co\edu\eci\cvds\config\BasicAuthInterceptor.java

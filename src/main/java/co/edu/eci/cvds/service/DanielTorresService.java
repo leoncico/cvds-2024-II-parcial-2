@@ -16,7 +16,7 @@ public class DanielTorresService {
         this.danieltorresRepository = danieltorresRepository;
     }
 
-    public List<DanielTorres> getAllConfigurations() {
+    public List<DanielTorres> getAllDanielTorres() {
         return danieltorresRepository.findAll();
         
     }

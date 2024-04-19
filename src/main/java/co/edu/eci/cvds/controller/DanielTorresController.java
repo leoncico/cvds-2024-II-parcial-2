@@ -21,14 +21,9 @@ public class DanielTorresController {
         this.danielTorresService = danielTorresService;
     }
 
-    @GetMapping("/configuration")
-    public String example(Model model) {
-        return "example";
-    }
-
     @GetMapping("")
-    public String showAll(Model model) {
-    model.addAttribute("Preguntas", danielTorresService.getAllConfigurations());
+    public String getDanielTorre(Model model) {
+    model.addAttribute("danielTorres", danielTorresService.getAllDanielTorres());
     return "DanielTorres";
     }
 
