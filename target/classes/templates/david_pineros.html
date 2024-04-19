@@ -1,6 +1,8 @@
 <!DOCTYPE HTML>
 <html xmlns:th="http://www.thymeleaf.org" lang="en"><!-- //NOSONAR -->
-<th:block th:replace="fragments/general.html::headerfiles('Example Page')"></th:block>
+<head>
+    <th:block th:replace="fragments/general.html::headerfiles('Example Page')"></th:block>
+</head>
 <body>
 <main>
     <h2 class="display-6 text-center mb-4">RESPUESTAS EXAMEN</h2>
@@ -13,20 +15,16 @@
                 <th scope="col">JUSTIFICACION</th>
             </tr>
             </thead>
-
-
             <tbody>
-            
             <tr th:each="answer : ${answers}">
-                <td><span th:text="${answer.numeroPregunta}"> Title </span></td>
-                <td><span th:text="${answer.justificacion}"> Author </span></td>
-                <td><span th:text="${answer.letra}"> Author </span></td>
+                <td th:text="${answer.numeroPregunta}"></td>
+                <td th:text="${answer.letra}"></td>
+                <td th:text="${answer.justificacion}"></td>
             </tr>
             </tbody>
-
         </table>
     </div>
 </main>
-<footer th:replace="fragments/general::empty-footer"></footer>
+<footer th:replace="fragments/general.html::empty-footer"></footer>
 </body>
 </html>

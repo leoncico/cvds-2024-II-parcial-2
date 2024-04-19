@@ -28,4 +28,24 @@ public class DAVID_PINEROS {
     public String getNumeroPregunta() {
         return numeroPregunta;
     }
+
+    public void setNumeroPregunta(String numeroPregunta) {
+        this.numeroPregunta = numeroPregunta;
+    }
+
+    public String getLetra() {
+        return letra;
+    }
+
+    public void setLetra(String letra) {
+        this.letra = letra;
+    }
+
+    public String getJustificacion() {
+        return justificacion;
+    }
+
+    public void setJustificacion(String justificacion) {
+        this.justificacion = justificacion;
+    }
 }

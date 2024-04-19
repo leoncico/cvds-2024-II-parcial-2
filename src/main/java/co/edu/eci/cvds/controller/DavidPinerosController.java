@@ -26,7 +26,8 @@ public class DavidPinerosController {
 
     @GetMapping("/david_pineros")
     public String getAnswers(Model model) {
-        model.addAttribute("answers", davidPinerosService.getAllAnswers());
+        List<DAVID_PINEROS> answers =  davidPinerosService.getAllAnswers();
+        model.addAttribute("answers", answers);
         return "david_pineros";
     }
 
